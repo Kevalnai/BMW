@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    max-height: max-content;
+    margin: 15px auto;
+    border: solid black;
+     
+}
+header {
+    /*border: solid black;*/
+    /* background-color: blue; */
+    background-image: url("bgimgcrop.jpg");  
+    /* Padding: 10px;
+    margin: 10px; */    
+    color: #fff;
+    padding: 10px;
+    height: 20rem;
+
+
+}
+h1{
+    text-align: left;
+    margin: 10px;
+    font-family: system-ui;
+
+}
+body div header .headingtext{
+    text-align: right;
+}
+header img{
+    float: left;
+    width: 58px;
+    height: 58px;
+}
+body div main .bmwmain{
+    padding-top: 5%;
+}
+nav{
+    /* background-image: url(performance.jpeg); */
+    /*border: solid rgb(0, 0, 0);*/
+    Padding: 10px;
+    margin: 0px;
+    /* height: 70px; */
+    float: right;
+    width: 100%;
+    background-color: #000000;
+}
+.bmwNav img{
+       width: 150px;
+       height: 68px;
+}
+
+.bmwNav section{    
+    width: 137px;
+    height: 67px;
+    clear: both;
+    position: absolute;
+}
+
+
+
+.a{
+    justify-content: center;
+    Padding: 10px 10px;
+    text-align: center;  
+    text-decoration-color: white;
+} 
+a{    
+    padding: 15px 40px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    float: right;
+    
+}
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    
+    color:#64685c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: rgb(250, 250, 250);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+div main section img {
+    width: 100%;
+    height: 500px;
+
+    margin: 1%;
+    border: solid black;
+}
+div main section p{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+body div div aside h1{
+    text-align: start;
+}
+aside{
+    background-color: #64685c;
+    color: #fff;
+    float: left;
+    width: 250px;
+    height: 55.10rem;
+    box-sizing: border-box;
+    /*border: solid rgb(0, 0, 0);*/
+    Padding: 10px;
+    
+}
+div main{
+    /*border: solid rgb(0, 0, 0);*/
+    Padding: 50px;
+    margin-left: 250px;
+
+}
+
+
+footer{
+    Padding: 50px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment Booking Form</title>
+</head>
+<body>
+
+<h2>Book an Appointment</h2>
+
+<form action="/submit_appointment" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">Phone:</label><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
+
+  <label for="date">Preferred Date:</label><br>
+  <input type="date" id="date" name="date" required><br><br>
+
+  <label for="time">Preferred Time:</label><br>
+  <input type="time" id="time" name="time" required><br><br>
+
+  <label for="reason">Reason for Appointment:</label><br>
+  <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+<a href="index.html">Click to go Homepage</a>
+
+</body>
+</html>
